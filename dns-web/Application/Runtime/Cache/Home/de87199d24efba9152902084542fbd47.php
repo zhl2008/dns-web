@@ -1,1 +1,0 @@
-<?php if (!defined('THINK_PATH')) exit();?>我们是土豪，不缺钱

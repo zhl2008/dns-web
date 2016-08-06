@@ -11,7 +11,7 @@ while true ; do
 #    少于1，重启进程
   if [ "${NUM}" -lt "1" ];then
     echo "${PRO_NAME} was killed"
-    cd /tmp/dns;su dns -c "python /tmp/dns/dns.py -p5353 -t"
+    cd /tmp/dns;su ctf -c "python /tmp/dns/dns.py -p5353 -t"
 #    大于1，杀掉所有进程，重启
   elif [ "${NUM}" -gt "1" ];then
     echo "more than 1 ${PRO_NAME},killall ${PRO_NAME}"
@@ -27,7 +27,7 @@ while true ; do
   
   if [ "${NUM_STAT}" -gt "0" ];then
     killall -9 ${PRO_NAME}
-    cd /tmp/dns;su dns -c "python /tmp/dns/dns.py -p5353 -t"
+    cd /tmp/dns;su ctf -c "python /tmp/dns/dns.py -p5353 -t"
   fi
 done
   
