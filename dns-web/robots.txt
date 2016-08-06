@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /Admindns/login
+Disallow: /Admindns/upload
+Disallow: /Admindns/download
+Disallow: /Admindns/modules

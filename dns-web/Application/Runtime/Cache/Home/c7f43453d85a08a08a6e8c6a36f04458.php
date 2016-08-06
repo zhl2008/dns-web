@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><script>window.location.href="/dns-web/Home/Admindns/modules";</script>

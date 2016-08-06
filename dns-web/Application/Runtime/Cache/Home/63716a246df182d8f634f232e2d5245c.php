@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>haozi has mv the login page to somewhere, go and find it

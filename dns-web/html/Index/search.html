@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<include file="Public:header"/>
+<body>
+<include file="Public:navbar"/>
+		<div class="container-fluid">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>domain name</th>
+						<th>dns server</th>
+						<th>ip address</th>
+					</tr>
+				</thead>
+				<tbody>
+				 <volist name="info" id="vo">
+					<tr>
+						<td>{$vo.domain}</td>
+						<td>{$vo.server}</td>
+						<td>{$vo.ip}</td>
+					</tr>
+				</volist>
+
+<ul class="pagination">
+  <li ><a href="{:U('Home/Index/search?'.$info2['query_previous'])}">&laquo;</a></li>
+  <li ><a href="{:U('Home/Index/search?'.$info2['query_next'])}">&raquo;</a></li>
+</ul>
+				</tbody>
+			</table>
+		</div>
+
+<style type="text/css">
+	.pagination {display:inline;}
+	.pagination>li:last-child>a{float:right;}
+</style>
+
+
+</body>
+</html>

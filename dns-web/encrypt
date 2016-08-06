@@ -1,0 +1,25 @@
+function encrypt($info, $key,$salt="_haozi_")
+{
+	$key	=	md5($key);
+    $x		=	0;
+    $info   =    $info.$salt;
+    $len	=	strlen($info);
+    $g  =  len($salt);
+    $l		=	strlen($key);
+    $str1   =   '';
+    $str    =   '';
+    for ($j = 0; $j < $len; $j++)
+    {
+        if ($x == $l) 
+        {
+        	$x = 0;
+        }
+        $str1 .= $key{$x};
+        $x++;
+    }
+    for ($j = 0; $j < $len; $j++)
+    {
+        $str .= chr(ord($info{$j}) + (ord($str1{$j})) % 256);
+    }
+    return base64_encode($str);
+}

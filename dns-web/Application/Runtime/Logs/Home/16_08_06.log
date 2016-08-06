@@ -1,0 +1,1043 @@
+[ 2016-08-06T10:38:39+08:00 ] 192.168.37.1 /dns-web/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013097s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111)
+
+[ 2016-08-06T10:39:19+08:00 ] 192.168.37.1 /dns-web/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'dns'@'localhost' (using password: YES)
+
+[ 2016-08-06T10:48:23+08:00 ] 192.168.37.1 /dns-web/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `dns` [ RunTime:0.0008s ]
+SQL: SELECT `domain`,`server`,`ip` FROM `dns` WHERE ( domain like '%%' or ip like '%%' or server like '%%'  ) ORDER BY domain desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/b9d8569fb4b13f0298ae898c51b036b1.php 第 39 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/b9d8569fb4b13f0298ae898c51b036b1.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016803s ]
+
+[ 2016-08-06T10:48:26+08:00 ] 192.168.37.1 /dns-web/home/index/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2016-08-06T10:52:48+08:00 ] 192.168.37.1 /dns-web/home/Admindns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Home/Common/function.php 第 3 行.
+
+[ 2016-08-06T10:52:48+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-08-06T10:53:12+08:00 ] 192.168.37.1 /dns-web/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `dns` [ RunTime:0.0007s ]
+SQL: SELECT `domain`,`server`,`ip` FROM `dns` WHERE ( domain like '%%' or ip like '%%' or server like '%%'  ) ORDER BY domain desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/b9d8569fb4b13f0298ae898c51b036b1.php 第 39 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/b9d8569fb4b13f0298ae898c51b036b1.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-08-06T10:53:13+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2016-08-06T10:53:17+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2016-08-06T10:53:27+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: select count(*) from admin where uname ="admin" and passwd="haoshihaozigegechuti" ; [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-08-06T10:53:37+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2016-08-06T10:54:17+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: select count(*) from admin where uname ="haozi" and passwd="haoshihaozigegechuti" ; [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-08-06T10:54:25+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2016-08-06T10:54:29+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0019s ]
+SQL: select count(*) from admin where uname ="admin" and passwd="haoshihaozigegechuti" ; [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+
+[ 2016-08-06T10:54:39+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-08-06T10:56:21+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: select count(*) from admin where uname ="haozi" and passwd="haishihaozigegechuti" ; [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/ssh/dns/dns-web/Application/Home/Controller/AdmindnsController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2016-08-06T10:56:24+08:00 ] 192.168.37.1 /dns-web/home/admindns/modules.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `modules` [ RunTime:0.0008s ]
+SQL: SELECT `module_name`,`add_time`,`domain` FROM `modules` ORDER BY add_time desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2016-08-06T10:56:39+08:00 ] 192.168.37.1 /dns-web/home/Admindns/download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-08-06T10:59:52+08:00 ] 192.168.37.1 /dns-web/home/Admindns/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2016-08-06T10:59:57+08:00 ] 192.168.37.1 /dns-web/home/index/contact.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined index: start_number /var/ssh/dns/dns-web/Application/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0008s ]
+SQL: SELECT `mid`,`nickname`,`message`,`send_time` FROM `message` ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-08-06T11:00:09+08:00 ] 192.168.37.1 /dns-web/home/index/donate.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-08-06T11:00:10+08:00 ] 192.168.37.1 /dns-web/home/index/index.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `dns` [ RunTime:0.0004s ]
+SQL: SELECT `domain`,`server`,`ip` FROM `dns` WHERE ( domain like '%%' or ip like '%%' or server like '%%'  ) ORDER BY domain desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2016-08-06T11:00:13+08:00 ] 192.168.37.1 /dns-web/home/index/index/start_number/10.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `dns` [ RunTime:0.0006s ]
+SQL: SELECT `domain`,`server`,`ip` FROM `dns` WHERE ( domain like '%%' or ip like '%%' or server like '%%'  ) ORDER BY domain desc LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-08-06T11:00:14+08:00 ] 192.168.37.1 /dns-web/home/index/index/start_number/20.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `dns` [ RunTime:0.0005s ]
+SQL: SELECT `domain`,`server`,`ip` FROM `dns` WHERE ( domain like '%%' or ip like '%%' or server like '%%'  ) ORDER BY domain desc LIMIT 20,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+
+[ 2016-08-06T11:00:17+08:00 ] 192.168.37.1 /dns-web/home/index/index.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `dns` [ RunTime:0.0005s ]
+SQL: SELECT `domain`,`server`,`ip` FROM `dns` WHERE ( domain like '%%' or ip like '%%' or server like '%%'  ) ORDER BY domain desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2016-08-06T11:00:24+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2016-08-06T11:00:29+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0009s ]
+SQL: select count(*) from admin where uname ="haozi" and passwd="haishihaozigegechuti" ; [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/ssh/dns/dns-web/Application/Home/Controller/AdmindnsController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2016-08-06T11:00:32+08:00 ] 192.168.37.1 /dns-web/home/admindns/modules.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `modules` [ RunTime:0.0005s ]
+SQL: SELECT `module_name`,`add_time`,`domain` FROM `modules` ORDER BY add_time desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2016-08-06T11:00:44+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2016-08-06T11:12:50+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2016-08-06T11:12:51+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2016-08-06T11:12:52+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2016-08-06T11:12:53+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2016-08-06T11:58:14+08:00 ] 192.168.37.1 /dns-web/home/Admindns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Home/Common/function.php 第 3 行.
+
+[ 2016-08-06T11:58:14+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-08-06T11:58:16+08:00 ] 192.168.37.1 /dns-web/home/admindns/login.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0034s ]
+SQL: select count(*) from admin where uname ="haozi" and passwd="haishihaozigegechuti" ; [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/ssh/dns/dns-web/Application/Home/Controller/AdmindnsController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2016-08-06T11:58:19+08:00 ] 192.168.37.1 /dns-web/home/admindns/modules.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `modules` [ RunTime:0.0006s ]
+SQL: SELECT `module_name`,`add_time`,`domain` FROM `modules` ORDER BY add_time desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2016-08-06T11:58:21+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Array to string conversion /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: this_ /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2016-08-06T11:59:01+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: this_ /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2016-08-06T11:59:48+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: this_ /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-08-06T11:59:52+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: this_ /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2016-08-06T12:00:26+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: this_ /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2016-08-06T13:07:27+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+
+[ 2016-08-06T13:08:19+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 43 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2016-08-06T13:09:40+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+
+[ 2016-08-06T13:11:26+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+
+[ 2016-08-06T13:11:27+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+
+[ 2016-08-06T13:11:28+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+
+[ 2016-08-06T13:12:58+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 43 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2016-08-06T13:13:23+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined variable: __destruct_action /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+
+[ 2016-08-06T13:13:38+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 43 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-08-06T13:13:40+08:00 ] 192.168.37.1 /dns-web/home/index/system.iscc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 10 bytes /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 1 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 43 行.
+NOTIC: [8] Undefined index: admin /var/ssh/dns/dns-web/Application/Runtime/Cache/Home/655c7d193c299789ff615f77d556e029.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+

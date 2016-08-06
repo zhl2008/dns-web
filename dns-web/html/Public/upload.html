@@ -1,0 +1,47 @@
+<div class="htmleaf-container col-md-12" >
+    <table class="table"><thead><tr><caption>[*]模块上传</caption><th></th></tr></thead></table>
+
+    <div class="container  col-md-12 visible-xs">
+        <form enctype="multipart/form-data" method="post" action='{:U("/Home/Admindns/upload/")}'>
+                <div class="col-md-6">
+                <input type="domain" name="domain"  value="example.com">
+                </div>
+                <span class="col-md-3">
+                <div class="col-md-6">
+                <input id="file-0a" class="file" name='file' type="file" multiple data-min-file-count="1">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-default">Reset</button>
+            </form>
+            <h4>请填写模块解析子域名，并上传模块文件</h4>
+    </div>
+
+        <form enctype="multipart/form-data" method="post" action='{:U("/Home/Admindns/upload/")}'>
+      <div class="container  col-md-12 hidden-xs" >
+        <form enctype="multipart/form-data">
+  
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">[*]只能上传py格式哦</h4>
+                </div>
+                
+                
+                
+
+                <div class="form-group ">
+
+                     <span>
+
+                    <input id="file-4" type="file" name="file" class="file" >
+                    
+
+                </div>
+                <input  id="file-4" type="domain" name="domain"  value="example.com">
+        </form>
+        <h4>请填写模块解析子域名，并上传模块文件</h4>
+                </div>
+                <hr>
+            </form>
+        </div>
+    
+  </div>
