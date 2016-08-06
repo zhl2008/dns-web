@@ -1,0 +1,176 @@
+------------------------------------------------------------
+/usr/bin/pip run on Sun Jul 17 21:09:15 2016
+Downloading/unpacking MySQL-python
+  Getting page https://pypi.python.org/simple/MySQL-python/
+  URLs to search for versions for MySQL-python:
+  * https://pypi.python.org/simple/MySQL-python/
+  Analyzing links from page https://pypi.python.org/simple/mysql-python/
+    Found link https://pypi.python.org/packages/03/c5/9f67c61bf6de708410305f172580f8d123b149fc9f24d25d063a2c393576/MySQL-python-1.2.4b5.zip#md5=4f645ed23ea0f8848be77f25ffe94ade (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4b5
+    Skipping link https://pypi.python.org/packages/26/c4/990b2bf5572f79c0929312b7fc199d5339a7860df2fc0debb19048c07837/MySQL-python-1.2.4b5.win32-py2.7.exe#md5=ad3dd07e28fd38c89a02cacb122bf27a (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/27/06/596ae3afeefc0cda5840036c42920222cb8136c101ec0f453f2e36df12a0/MySQL-python-1.2.5.win32-py2.7.exe#md5=6f43f42516ea26e79cfb100af69a925e (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2f/75/35dad3542f4dc1e679c6c044dc6fffa73c49f1c9e49fb6c8126aacf67b46/MySQL-python-1.2.4.win32-py2.7.exe#md5=313b4ceed0144a3019f87a4fba5168d6 (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/36/f4/044085299e6772dae18714e511251f8a815b51cc60c21d5287ae22f2b3e0/MySQL-python-1.2.4b2.win32-py2.7.exe#md5=ac5812bf27dde82c41476b09aeba3ecf (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3c/c4/0a4facd4af2537cce63aceb8049e67a5c9b376eb094593dc1d7f443e78be/MySQL-python-1.2.4b3.win32-py2.7.exe#md5=4596e73263008aa83d59b0541fe2ce7e (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/49/56/97ce5ee8003106a1c0aa9f58191d822a5c14a317bed15d3fa73a86722537/MySQL-python-1.2.4c1.win32-py2.7.exe#md5=2a07d427814482fb90dbe97b591fc31d (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/55/b8/f1f811f29a3b290b9e0fedeab8ea38b0c57cfb5e78f3c1eccc2d4de321e7/MySQL-python-1.2.3b1.tar.gz#md5=906c00cbfb81f54a474b3e7dcf7236bb (from https://pypi.python.org/simple/mysql-python/), version: 1.2.3b1
+    Found link https://pypi.python.org/packages/57/11/9215987060b0c3981b9d7a0b16dc4f2588522e7819f484086e0c46bb7fb3/MySQL-python-1.2.4b3.zip#md5=2fb8db45f5c71dbc5869bd19eaaf546c (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4b3
+    Found link https://pypi.python.org/packages/5a/f4/71d7ce0ca43833a55d4a5c39b011bbf4c89f060be719ff0d8e2cb688be84/MySQL-python-1.2.4b5.tar.gz#md5=2d760ee948aff4f50d01afdf8afff48c (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4b5
+    Skipping link https://pypi.python.org/packages/62/75/70c766d07004c28c400e9336705369ad6a2e7ad90d7e99ec3d31b50f4316/MySQL_python-1.2.3c1-py2.5-linux-i686.egg#md5=1efcbed6f1f29acd50993f54109938d3 (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/66/8f/d22ffc75b2e9b1d9c264c0cd715359e589f1f1f7edfb48e0923401ac3f8f/MySQL_python-1.2.2-py2.4-win32.egg#md5=6620279666cb40e26d89079b55e61a3f (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/90/5a/ce7bef80825c2188cf507baf57b37516e18dffdb198a6766a597f703059a/MySQL-python-1.2.4.zip#md5=ddf2386daf10a97af115ffad2ed4a9a0 (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4
+    Skipping link https://pypi.python.org/packages/94/c2/96ca7914b69fe1eda92b401a8e314e8321cd4d6119c7f85921ce6982eb49/MySQL_python-1.2.3b2-py2.5-linux-i686.egg#md5=36f78115685d8ed96ab9199c36ef0ab0 (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/94/ea/b3bbfb326d754dcf1ceaa558d634af87f3f6aa6dfa54a771a8b8a01ff892/MySQL-python-1.2.4b4.win32-py2.7.exe#md5=b53ad22d5a8e16d11ffb919eb07c9b89 (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/9a/81/924d6799494cf7fb24370335c2f782088d6ac4f79e4137d4df94cea3582c/MySQL-python-1.2.3.tar.gz#md5=215eddb6d853f6f4be5b4afc4154292f (from https://pypi.python.org/simple/mysql-python/), version: 1.2.3
+    Found link https://pypi.python.org/packages/9a/d4/4d7ceed182e5930335ec8c94a5d786f0d9f5dd4326f397877ede2c511d9e/MySQL-python-1.2.4c1.zip#md5=a05925412cd824104da064db6a889613 (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4c1
+    Found link https://pypi.python.org/packages/9b/f0/2b71c8f3be0319dc9eb1aab8eac1dcbe5f981cc1b42f630cb7a49ae9ab54/MySQL-python-1.2.3b2.tar.gz#md5=e30ae85d490e87f3788eb4a59e590130 (from https://pypi.python.org/simple/mysql-python/), version: 1.2.3b2
+    Found link https://pypi.python.org/packages/a5/e9/51b544da85a36a68debe7a7091f068d802fc515a3a202652828c73453cad/MySQL-python-1.2.5.zip#md5=654f75b302db6ed8dc5a898c625e030c (from https://pypi.python.org/simple/mysql-python/), version: 1.2.5
+    Skipping link https://pypi.python.org/packages/b0/12/68620c27126815217264c89c74b22171b366bf48230a6a99622d0414baa5/MySQL_python-1.2.3b2-py2.6-linux-i686.egg#md5=08ba3e38b899a70a1a2bb3239107acae (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/b2/be/8847f0522fb66832885a19010de54e232408a6654af79bad5980e0a4bb41/MySQL-python-1.2.4b4.zip#md5=2ce6fad5c5fe4074c33e8e799dc7a0af (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4b4
+    Skipping link https://pypi.python.org/packages/b9/7a/ad14337bcc08f60550f178acb3ce715fba1a827494b8f47b1022619d5eb1/MySQL_python-1.2.3b1-py2.6-linux-i686.egg#md5=4a640ca00352a18e0a8211e935406100 (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/bc/5f/915c647f6b4aabb65b36296643f2e90fcb7986be35f602d0caa4b7a57cc7/MySQL-python-1.2.4b1.tar.gz#md5=138669627e06f10c1c2e75122f673c21 (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4b1
+    Skipping link https://pypi.python.org/packages/c3/a3/e4e654d205d264c548235fa230eaee2ed404678835f7a2f937860d66b418/MySQL_python-1.2.3c1-py2.6-linux-i686.egg#md5=fd472a7c42ef80bd671272a25d6aadf8 (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/c6/0b/a213f0abd7a4d2038af5565f2e83aa8f72d16e122eb0a1e98fed469b0361/MySQL-python-1.2.4b2.tar.gz#md5=d13f7351e195277ffd019bd7644312c9 (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4b2
+    Found link https://pypi.python.org/packages/c8/8f/aedf47a2e973a2d2f225ac98537472fc928ad61b9647fb370870404c594b/MySQL-python-1.2.3c1.tar.gz#md5=310dd856e439d070b59ece6dd7a0734d (from https://pypi.python.org/simple/mysql-python/), version: 1.2.3c1
+    Skipping link https://pypi.python.org/packages/d6/2e/14aab64b706ac291e2aa66b32911b64696361108289722fb804e1ad8a67c/MySQL_python-1.2.3b1-py2.5-linux-i686.egg#md5=43ace300f3eda0fc418869b04a5139eb (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/dd/9a/c69feb14eb5c6b3e17ffc7d24e515fef2add87322bbc4e5a02eeea175dec/MySQL-python-1.2.4b3.tar.gz#md5=b495d89426d83ba1e305f774e81b872f (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4b3
+    Skipping link https://pypi.python.org/packages/ea/68/7f718d209aed8b117f6d4c8e27194fc63cb900d612799301aceb93204be6/MySQL-python-1.2.4b1.win32-py2.7.exe#md5=e0a9f62c7a65eca79a1aa58371caa405 (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/ee/be/203071bba1a90bd428c2f466dad1426bad5f27844de0016ffdce3b28921c/MySQL-python-1.2.4b4.tar.gz#md5=0958cb9c23d5a656caac031c4886b1cf (from https://pypi.python.org/simple/mysql-python/), version: 1.2.4b4
+    Skipping link https://pypi.python.org/packages/f9/5a/ad2d05dbf38fff9e184f9c386506f92e4d6f2cd572bcebd289d2a7c6dce6/MySQL_python-1.2.2-py2.5-win32.egg#md5=596ec38e498e80ce73759f777b29c588 (from https://pypi.python.org/simple/mysql-python/); unknown archive format: .egg
+  Ignoring link https://pypi.python.org/packages/03/c5/9f67c61bf6de708410305f172580f8d123b149fc9f24d25d063a2c393576/MySQL-python-1.2.4b5.zip#md5=4f645ed23ea0f8848be77f25ffe94ade (from https://pypi.python.org/simple/mysql-python/), version 1.2.4b5 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/55/b8/f1f811f29a3b290b9e0fedeab8ea38b0c57cfb5e78f3c1eccc2d4de321e7/MySQL-python-1.2.3b1.tar.gz#md5=906c00cbfb81f54a474b3e7dcf7236bb (from https://pypi.python.org/simple/mysql-python/), version 1.2.3b1 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/57/11/9215987060b0c3981b9d7a0b16dc4f2588522e7819f484086e0c46bb7fb3/MySQL-python-1.2.4b3.zip#md5=2fb8db45f5c71dbc5869bd19eaaf546c (from https://pypi.python.org/simple/mysql-python/), version 1.2.4b3 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/5a/f4/71d7ce0ca43833a55d4a5c39b011bbf4c89f060be719ff0d8e2cb688be84/MySQL-python-1.2.4b5.tar.gz#md5=2d760ee948aff4f50d01afdf8afff48c (from https://pypi.python.org/simple/mysql-python/), version 1.2.4b5 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/9a/d4/4d7ceed182e5930335ec8c94a5d786f0d9f5dd4326f397877ede2c511d9e/MySQL-python-1.2.4c1.zip#md5=a05925412cd824104da064db6a889613 (from https://pypi.python.org/simple/mysql-python/), version 1.2.4c1 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/9b/f0/2b71c8f3be0319dc9eb1aab8eac1dcbe5f981cc1b42f630cb7a49ae9ab54/MySQL-python-1.2.3b2.tar.gz#md5=e30ae85d490e87f3788eb4a59e590130 (from https://pypi.python.org/simple/mysql-python/), version 1.2.3b2 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/b2/be/8847f0522fb66832885a19010de54e232408a6654af79bad5980e0a4bb41/MySQL-python-1.2.4b4.zip#md5=2ce6fad5c5fe4074c33e8e799dc7a0af (from https://pypi.python.org/simple/mysql-python/), version 1.2.4b4 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/bc/5f/915c647f6b4aabb65b36296643f2e90fcb7986be35f602d0caa4b7a57cc7/MySQL-python-1.2.4b1.tar.gz#md5=138669627e06f10c1c2e75122f673c21 (from https://pypi.python.org/simple/mysql-python/), version 1.2.4b1 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/c6/0b/a213f0abd7a4d2038af5565f2e83aa8f72d16e122eb0a1e98fed469b0361/MySQL-python-1.2.4b2.tar.gz#md5=d13f7351e195277ffd019bd7644312c9 (from https://pypi.python.org/simple/mysql-python/), version 1.2.4b2 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/c8/8f/aedf47a2e973a2d2f225ac98537472fc928ad61b9647fb370870404c594b/MySQL-python-1.2.3c1.tar.gz#md5=310dd856e439d070b59ece6dd7a0734d (from https://pypi.python.org/simple/mysql-python/), version 1.2.3c1 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/dd/9a/c69feb14eb5c6b3e17ffc7d24e515fef2add87322bbc4e5a02eeea175dec/MySQL-python-1.2.4b3.tar.gz#md5=b495d89426d83ba1e305f774e81b872f (from https://pypi.python.org/simple/mysql-python/), version 1.2.4b3 is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/ee/be/203071bba1a90bd428c2f466dad1426bad5f27844de0016ffdce3b28921c/MySQL-python-1.2.4b4.tar.gz#md5=0958cb9c23d5a656caac031c4886b1cf (from https://pypi.python.org/simple/mysql-python/), version 1.2.4b4 is a pre-release (use --pre to allow).
+  Using version 1.2.5 (newest of versions: 1.2.5, 1.2.4, 1.2.3)
+  Downloading from URL https://pypi.python.org/packages/a5/e9/51b544da85a36a68debe7a7091f068d802fc515a3a202652828c73453cad/MySQL-python-1.2.5.zip#md5=654f75b302db6ed8dc5a898c625e030c (from https://pypi.python.org/simple/mysql-python/)
+  Running setup.py (path:/tmp/pip_build_root/MySQL-python/setup.py) egg_info for package MySQL-python
+    running egg_info
+    creating pip-egg-info/MySQL_python.egg-info
+    writing pip-egg-info/MySQL_python.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/MySQL_python.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/MySQL_python.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/MySQL_python.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/MySQL_python.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/MySQL_python.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_root/MySQL-python has version 1.2.5, which satisfies requirement MySQL-python
+Installing collected packages: MySQL-python
+  Running setup.py install for MySQL-python
+    Running command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/MySQL-python/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-EsFVue-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.7
+    copying _mysql_exceptions.py -> build/lib.linux-x86_64-2.7
+    creating build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/__init__.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/converters.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/connections.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/cursors.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/release.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    copying MySQLdb/times.py -> build/lib.linux-x86_64-2.7/MySQLdb
+    creating build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/__init__.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/CR.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/FIELD_TYPE.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/ER.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/FLAG.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/REFRESH.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    copying MySQLdb/constants/CLIENT.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+    running build_ext
+    building '_mysql' extension
+    creating build/temp.linux-x86_64-2.7
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Dversion_info=(1,2,5,'final',1) -D__version__=1.2.5 -I/usr/include/mysql -I/usr/include/python2.7 -c _mysql.c -o build/temp.linux-x86_64-2.7/_mysql.o -DBIG_JOINS=1 -fno-strict-aliasing -g -DNDEBUG
+    _mysql.c:29:20: fatal error: Python.h: No such file or directory
+     #include "Python.h"
+                        ^
+    compilation terminated.
+    error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+    Complete output from command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/MySQL-python/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-EsFVue-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.7
+
+copying _mysql_exceptions.py -> build/lib.linux-x86_64-2.7
+
+creating build/lib.linux-x86_64-2.7/MySQLdb
+
+copying MySQLdb/__init__.py -> build/lib.linux-x86_64-2.7/MySQLdb
+
+copying MySQLdb/converters.py -> build/lib.linux-x86_64-2.7/MySQLdb
+
+copying MySQLdb/connections.py -> build/lib.linux-x86_64-2.7/MySQLdb
+
+copying MySQLdb/cursors.py -> build/lib.linux-x86_64-2.7/MySQLdb
+
+copying MySQLdb/release.py -> build/lib.linux-x86_64-2.7/MySQLdb
+
+copying MySQLdb/times.py -> build/lib.linux-x86_64-2.7/MySQLdb
+
+creating build/lib.linux-x86_64-2.7/MySQLdb/constants
+
+copying MySQLdb/constants/__init__.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+
+copying MySQLdb/constants/CR.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+
+copying MySQLdb/constants/FIELD_TYPE.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+
+copying MySQLdb/constants/ER.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+
+copying MySQLdb/constants/FLAG.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+
+copying MySQLdb/constants/REFRESH.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+
+copying MySQLdb/constants/CLIENT.py -> build/lib.linux-x86_64-2.7/MySQLdb/constants
+
+running build_ext
+
+building '_mysql' extension
+
+creating build/temp.linux-x86_64-2.7
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Dversion_info=(1,2,5,'final',1) -D__version__=1.2.5 -I/usr/include/mysql -I/usr/include/python2.7 -c _mysql.c -o build/temp.linux-x86_64-2.7/_mysql.o -DBIG_JOINS=1 -fno-strict-aliasing -g -DNDEBUG
+
+_mysql.c:29:20: fatal error: Python.h: No such file or directory
+
+ #include "Python.h"
+
+                    ^
+
+compilation terminated.
+
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+
+----------------------------------------
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_root...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/MySQL-python/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-EsFVue-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_root/MySQL-python
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 283, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1436, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 707, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.7/dist-packages/pip/util.py", line 715, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/MySQL-python/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-EsFVue-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_root/MySQL-python

@@ -1,0 +1,101 @@
+   
+
+    <!-- MetisMenu CSS -->
+    <link href="/dns-web/Public/css/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="/dns-web/Public/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/dns-web/Public/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="/dns-web/Public/css/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/dns-web/Public/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+    .pagination {display:inline;}
+    .pagination>li>a {padding: 10px 12px;margin-left: 10px;margin-right: 10px}
+    .pagination>li:last-child>a{float:right;margin-right: 0px}
+    </style>
+<!-- /.panel -->
+                
+                <ul class="pagination">
+                <li><a href="{:U('Home/Index/contact?'.$info2['query_previous'])}">&laquo;</a></li>
+                <li><a href="{:U('Home/Index/contact?'.$info2['query_next'])}">&raquo;</a></li>
+                </ul>
+                
+                    <div class="chat-panel panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-comments fa-fw"></i>
+                            留言墙
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                                <ul class="dropdown-menu slidedown">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-refresh fa-fw"></i> 刷新
+                                        </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="{:U('/Home/User/logout')}">
+                                            <i class="fa fa-sign-out fa-fw"></i> 登出
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <ul class="chat">
+                                <volist name="message2" id="vo">
+                                <li class="left clearfix">
+                                    <span class="chat-img pull-<?php if($i%2==1){echo 'left';}else{echo 'right';}?>">
+                                        <img src="/dns-web/Public/img/1.png" alt="User Avatar" style="height:50px" class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <strong class="primary-font">{$vo.nickname}</strong>
+                                            <small class="pull-right text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i>{$vo.send_time}
+                                            </small>
+                                        </div>
+                                        <p>
+                                            {$vo.message}
+                                        </p>
+                                
+                                        <div style="visibility:<?php if(!isset($_SESSION['admin'])){echo 'hidden'; } ?>">
+                                        <button class="btn btn-warning btn-sm" style="float:<?php if($i%2==1){echo 'right';}else{echo 'left';}?>;margin:5px;" onclick="document.location.href='{:U('Home/Admindns/message_admin/mid/'.$vo['mid'].'/action/del')}';">删除</button>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                </volist>
+                            </ul>
+                        </div>
+                        <!-- /.panel-body -->
+
+                        <div class="panel-footer">
+                        <form method="post" action="{:U('/Home/Index/send_message')}">
+                            <div class="input-group">
+                                <input id="btn-input" name="message" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                <input type="hidden" name="biaobaiqiang" value="1">
+                                <input type="hidden" name="to_uid" value="0">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="btn-chat">
+                                        Send
+                                    </button>
+                                </span>
+                            </div>
+                        </form>
+                        </div>
+
+                        <!-- /.panel-footer -->
+                    </div>
+                    <!-- /.panel .chat-panel -->

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="">
+<include file="Public:header"/>
+<style type="text/css">
+  #my>li.list-group-item:hover
+  {background-color: #65D45E;}
+</style>
+  <body>
+    <include file="Public:navbar"/>
+    <div class="container">
+      <div class="col-md-12" style="">
+        <table class="table">
+          <thead>
+            <tr>
+               <caption>dns模块状态</caption>
+              <th class="col-md-4 hidden-xs">模块名</th>
+              <th class="col-md-4 hidden-xs">匹配域名</th>
+              <th class="col-md-4 hidden-xs">添加时间</th>
+            </tr>
+          </thead>
+      </table>
+        <div class="row">
+        <volist name="info" id="vo">
+            <ul class="list-group col-md-4 hidden-xs" style="padding-right:5px;">
+              <li class="list-group-item">{$vo.module_name}</li>
+            </ul>
+          <ul id="my" class="list-group col-md-4 ">
+              <li class="list-group-item">{$vo.domain}</li>
+        </ul>
+        <ul id="my" class="list-group col-md-4 ">
+              <li class="list-group-item">{$vo.add_time}</li>
+        </ul>
+        </volist>
+      </div>
+      <br>
+      <br>
+      <table class="table">
+          <thead>
+            <tr>
+               <caption>dns模块说明</caption>
+               <th class="col-md-12 ">dns模块用于对于指定域名及其子域名进行自定义解析，可以针对内网用户进行dns投毒。基本规则如下：
+               <br>
+               1.用户可以上传自己的解析脚本；
+               <br>
+               2.同一域名，不同模块，解析将使用最新的模块;
+               <br>
+               3.更加指定精确的域名模块解析优先，如example.com对于的模块解析优先于com对应的模块；
+               <br>
+               4.have fun;
+               </th>
+            </tr>
+          </thead>
+      </table>
+      </div>
+
+  </div>
+
+
+
+  </body>
+</html>

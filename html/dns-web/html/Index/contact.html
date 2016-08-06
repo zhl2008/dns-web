@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+<include file="Public:header"/>
+
+
+
+
+	<body>
+		<include file="Public:navbar"/>
+		<include file="Public:verbose"/>
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   			<div class="modal-dialog">
+      			<div class="modal-content" >
+         			<div class="modal-header">
+         				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            		</div>
+		     		<div class="modal-body">
+		       			<div class="container  col-md-12">
+		            			 <form  method="post" action="{:U('/Home/user/send_message')}">
+                            <div class="input-group">
+                                <input id="btn-input" name="message" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                <input type="hidden" name="biaobaiqiang" value="1">
+                                <input type="hidden" name="to_uid" value="0">
+                                <input id="myInput" type="hidden" name="photos" value="">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="btn-chat">
+                                        Send
+                                    </button>
+                                </span>
+                            </div>
+                        </form>
+		            	</div>
+		     		</div>
+         			<div class="modal-footer">
+         			</div>
+      			</div><!-- /.modal-content -->
+			</div><!-- /.modal -->
+		</div>
+	</body>
+	
+</html>

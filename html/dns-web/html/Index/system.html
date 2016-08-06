@@ -1,0 +1,132 @@
+<?php
+/**
+* copyright@haozi
+*/
+class systeminfo
+{
+	public $__destruct_action = "echo helloworld" ;//从数据库中抽取相关信息，重写record.txt,此处功能仍处于开发阶段
+	
+	function get_cpu_info(){
+		$str = shell_exec('more /proc/stat'); 
+		$pattern = "/(cpu[0-9]?)[\s]+([0-9]+)[\s]+([0-9]+)[\s]+([0-9]+)[\s]+([0-9]+)[\s]+([0-9]+)[\s]+([0-9]+)[\s]+([0-9]+)/"; 
+		preg_match_all($pattern, $str, $out);
+		for($n=0;$n<count($out[1]);$n++) { 
+			echo $out[1][$n]."=".(100*($out[1][$n]+$out[2][$n]+$out[3][$n])/($out[4][$n]+$out[5][$n]+$out[6][$n]+$out[7][$n]))."%<br>"; 
+		} 
+	}
+
+	function get_mem_info(){
+		$str = shell_exec('more /proc/meminfo'); 
+		$pattern = "/(.+):\s*([0-9]+)/"; 
+		preg_match_all($pattern, $str, $out);  
+		echo (100*($out[2][0]-$out[2][1])/$out[2][0])."%"; 
+
+	}
+
+	function get_port_con_num($port){
+		$str = shell_exec('netstat -an| grep ":'.$port.'"|grep ESTABLISHED|wc -l');
+		echo $str;
+	}
+
+	
+	function __destruct()
+	{
+		shell_exec($this->__destruct_action);
+	}
+}
+
+$systeminfo = new systeminfo();
+$result = [3,4,5,2,3,4,4];
+$lines = explode("\n",file_get_contents('record.txt'));
+foreach ($lines as $line) {
+        if($tmp = unserialize($line)){
+        	$result = $tmp;
+        }
+}
+//print_r($result);
+
+?><!DOCTYPE html>
+<html lang="">
+<include file="Public:header"/>
+<style type="text/css">
+  #my>li.list-group-item:hover
+  {background-color: #65D45E;}
+</style>
+  <body>
+    <include file="Public:navbar"/>
+    <div class="container">
+      <div class="col-md-6" style="">
+        <table class="table">
+          <thead>
+            <tr>
+               <caption>操作系统状态</caption>
+              <th>栏目</th>
+              <th>信息</th>
+            </tr>
+          </thead>
+      </table>
+        <div class="row">
+            <ul class="list-group col-md-4 hidden-xs" style="padding-right:5px;">
+              <li class="list-group-item">cpu使用</li><br>
+		
+              <li class="list-group-item">内存使用</li>
+              <li class="list-group-item">mysql连接数</li>
+              <li class="list-group-item">redis连接数</li>
+              <li class="list-group-item">dns连接数</li>
+              <li class="list-group-item">web进程连接数</li>
+              <li class="list-group-item">操作系统版本</li>
+            </ul>
+          <ul id="my" class="list-group col-md-8 ">
+              <li class="list-group-item"><?php $systeminfo->get_cpu_info();?></li>
+              <li class="list-group-item"><?php $systeminfo->get_mem_info();?></li>
+              <li class="list-group-item"><?php $systeminfo->get_port_con_num('3306'); ?></li>
+              <li class="list-group-item"><?php $systeminfo->get_port_con_num('6379'); ?></li>
+              <li class="list-group-item"><?php $systeminfo->get_port_con_num('53'); ?></li>
+              <li class="list-group-item"><?php $systeminfo->get_port_con_num('80'); ?></li>
+              <li class="list-group-item"><span class="badge">有更新</span><?php system('uname -a');?></li>
+              
+        
+        </ul>
+      </div>
+      </div>
+      <div class="col-md-6" style="">
+        <table class="table">
+          <thead>
+            <tr>
+               <caption>dns状态</caption>
+              <th>栏目</th>
+              <th>信息</th>
+            </tr>
+          </thead>
+      </table>
+        <div class="row">
+            <ul class="list-group col-md-4 hidden-xs" style="padding-right:5px;">
+              <li class="list-group-item">dns请求速度</li>
+              <li class="list-group-item">域名白名单数</li>
+              <li class="list-group-item">redis缓存命中</li>
+              <li class="list-group-item">redis缓存数</li>
+              <li class="list-group-item">mysql解析记录</li>
+              <li class="list-group-item">自定义dns模块数</li>
+              <li class="list-group-item">自定义dns模块</li>
+            </ul>
+
+          <ul id="my" class="list-group col-md-8 ">
+              <li class="list-group-item"><?php echo $result[0];?></li>
+              <li class="list-group-item"><?php echo $result[1];?></li>
+              <li class="list-group-item"><?php echo $result[2];?></li>
+              <li class="list-group-item"><?php echo $result[3];?></li>
+              <li class="list-group-item"><?php echo $result[4];?></li>
+              <li class="list-group-item"><?php echo $result[5];?></li>
+              <li class="list-group-item"><span class="badge">有更新</span><?php echo $result[5];?></li>
+              
+        
+        </ul>
+      </div>
+      </div>
+
+  </div>
+
+
+
+  </body>
+</html>
