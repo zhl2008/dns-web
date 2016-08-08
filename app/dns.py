@@ -46,7 +46,7 @@ def run_modules(module_name):
     if not os.path.exists('./module-upload/'+module_name):
         return '0.0.0.0'
     start = time.time()
-    process = subprocess.Popen(['python','./module-upload/'+module_name], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process = subprocess.Popen('python ./module-upload/'+module_name, stdout=subprocess.PIPE, stderr=subprocess.PIPE,shell=True)
     #limit the run time up to 3s
     while process.poll() is None:
         time.sleep(0.2)
